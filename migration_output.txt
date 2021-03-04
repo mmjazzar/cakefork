@@ -1,0 +1,253 @@
+yehia@yehia-Laptop:~/Documents/startups/valoro/projects/componed/yieldFarmingBinance/panckae/pancake-farm$ yarn migrate
+yarn run v1.21.1
+$ truffle migrate --network testnet --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'testnet'
+> Network id:      97
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xd49fa86448bc4d38f296620d8f158d6f7b25a9159e9da76dfd4e82cf9289b7ab
+   > Blocks: 4            Seconds: 15
+   > contract address:    0x6d7a68941EA8e60Af9863ec2bbe3C6b399e41F84
+   > block number:        6541308
+   > block timestamp:     1614093754
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.7622809
+   > gas used:            159183 (0x26dcf)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00318366 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6541313)
+   > confirmation number: 3 (block: 6541314)
+   > confirmation number: 5 (block: 6541316)
+   > confirmation number: 6 (block: 6541317)
+   > confirmation number: 7 (block: 6541318)
+   > confirmation number: 9 (block: 6541320)
+   > confirmation number: 10 (block: 6541321)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00318366 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'CakeToken'
+   ---------------------
+   > transaction hash:    0x975ecdddb748b615dc697782e692e394a9faa8f0cb18de11339b2742741ac6f9
+   > Blocks: 4            Seconds: 15
+   > contract address:    0x40AFdE949c5a7d4a628a61976E8408c511f74bbe
+   > block number:        6541331
+   > block timestamp:     1614093823
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.70542934
+   > gas used:            2800240 (0x2aba70)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0560048 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6541336)
+   > confirmation number: 3 (block: 6541337)
+   > confirmation number: 5 (block: 6541339)
+   > confirmation number: 6 (block: 6541340)
+   > confirmation number: 7 (block: 6541341)
+   > confirmation number: 9 (block: 6541343)
+   > confirmation number: 10 (block: 6541344)
+
+   Replacing 'Timelock'
+   --------------------
+   > transaction hash:    0x1da91815b50f8ca583d54a727cc6de7a6322fb7ea20ce38f8382b3dc2cd787b4
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x15c93E3650E99AA45d8ab0085448ee334e5800C4
+   > block number:        6541348
+   > block timestamp:     1614093874
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.6689865
+   > gas used:            1822142 (0x1bcdbe)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03644284 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 6541352)
+   > confirmation number: 3 (block: 6541354)
+   > confirmation number: 4 (block: 6541355)
+   > confirmation number: 5 (block: 6541356)
+   > confirmation number: 7 (block: 6541358)
+   > confirmation number: 8 (block: 6541359)
+   > confirmation number: 9 (block: 6541360)
+   > confirmation number: 11 (block: 6541362)
+
+   Replacing 'WBNB'
+   ----------------
+   > transaction hash:    0xc2ec070d74d3bb4b5ece4af63550eefe2247aca54bffcafc009fdb1244e6be8d
+   > Blocks: 6            Seconds: 18
+   > contract address:    0xbC1d1eDd1f87B8cFb41B82f39302b1e43bd55D64
+   > block number:        6541369
+   > block timestamp:     1614093937
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.65245446
+   > gas used:            826602 (0xc9cea)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01653204 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 6541373)
+   > confirmation number: 3 (block: 6541375)
+   > confirmation number: 4 (block: 6541376)
+   > confirmation number: 5 (block: 6541377)
+   > confirmation number: 7 (block: 6541379)
+   > confirmation number: 8 (block: 6541380)
+   > confirmation number: 9 (block: 6541381)
+   > confirmation number: 11 (block: 6541383)
+
+   Replacing 'BnbStaking'
+   ----------------------
+   > transaction hash:    0xf457a731ee86de18553dd897d3d6dd990e2b8d9d0fb93e24f7d7b472e21f8a5b
+   > Blocks: 9            Seconds: 29
+   > contract address:    0x1ac74E697110E42dEfb6C3d4EA696E72FD68ea91
+   > block number:        6541393
+   > block timestamp:     1614094009
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.60137906
+   > gas used:            2553770 (0x26f7aa)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0510754 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6541405)
+   > confirmation number: 4 (block: 6541407)
+   > confirmation number: 5 (block: 6541408)
+   > confirmation number: 6 (block: 6541409)
+   > confirmation number: 7 (block: 6541410)
+   > confirmation number: 10 (block: 6541413)
+
+   Replacing 'SyrupBar'
+   --------------------
+   > transaction hash:    0x50e598da5585c2b420c7afab226ed02def3e960f6b260380c5a21df4cad886a4
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xd789E2b0df56c136Abfd8786A20997805009f844
+   > block number:        6541422
+   > block timestamp:     1614094096
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.53685476
+   > gas used:            3226215 (0x313a67)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0645243 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6541430)
+   > confirmation number: 5 (block: 6541433)
+   > confirmation number: 6 (block: 6541434)
+   > confirmation number: 8 (block: 6541436)
+   > confirmation number: 9 (block: 6541437)
+   > confirmation number: 10 (block: 6541438)
+
+   Replacing 'MasterChef'
+   ----------------------
+   > transaction hash:    0xa73e52e555ee4122d2e0ab78d65dbac09c3cf261a41f9dd9c23e709585a09a34
+   > Blocks: 5            Seconds: 17
+   > contract address:    0xebaaf675A755b9F3e7db088be87b053842b21095
+   > block number:        6541446
+   > block timestamp:     1614094168
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.47080566
+   > gas used:            3302455 (0x326437)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0660491 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 6541455)
+   > confirmation number: 3 (block: 6541457)
+   > confirmation number: 4 (block: 6541458)
+   > confirmation number: 6 (block: 6541460)
+   > confirmation number: 7 (block: 6541461)
+   > confirmation number: 8 (block: 6541462)
+   > confirmation number: 11 (block: 6541465)
+
+   Replacing 'LotteryRewardPool'
+   -----------------------------
+   > transaction hash:    0x488b059aa5c6ce695fb9834106e69b74ed80629b19a6e74e7efc8f32e43f7917
+   > Blocks: 5            Seconds: 16
+   > contract address:    0xA493AE0aaB1447e7F97EE09Ef88CdA817a7DA14b
+   > block number:        6541470
+   > block timestamp:     1614094240
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.44077406
+   > gas used:            1501580 (0x16e98c)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0300316 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 4 (block: 6541478)
+   > confirmation number: 5 (block: 6541479)
+   > confirmation number: 6 (block: 6541480)
+   > confirmation number: 8 (block: 6541482)
+   > confirmation number: 10 (block: 6541484)
+
+   Replacing 'SousChef'
+   --------------------
+   > transaction hash:    0x25f0962378e09b74c169330f1de58ed33d7fe557310c4e99b3a012569c10c2d7
+   > Blocks: 3            Seconds: 10
+   > contract address:    0x3401b89b017f9ca3b3FC893A3d1cf67489048d4c
+   > block number:        6541489
+   > block timestamp:     1614094297
+   > account:             0x01851c2EB94e44854646D8426B473586035d89D5
+   > balance:             3.4128721
+   > gas used:            1395098 (0x15499a)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02790196 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 6541493)
+   > confirmation number: 3 (block: 6541495)
+   > confirmation number: 4 (block: 6541496)
+   > confirmation number: 5 (block: 6541497)
+   > confirmation number: 7 (block: 6541499)
+   > confirmation number: 8 (block: 6541500)
+   > confirmation number: 10 (block: 6541502)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.34856204 ETH
+
+
+Summary
+=======
+> Total deployments:   9
+> Final cost:          0.3517457 ETH
